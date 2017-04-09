@@ -1,0 +1,5 @@
+projectKey=Runner
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Runner
+ceTaskId=AVWsH29jsf2W4jt02R1-
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVWsH29jsf2W4jt02R1-

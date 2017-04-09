@@ -1,0 +1,5 @@
+projectKey=SpiralBugRunner
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/SpiralBugRunner
+ceTaskId=AVWbx-QR-hCsY68uIlPi
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVWbx-QR-hCsY68uIlPi

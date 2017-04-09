@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/Administrator/smb-1/myself/stage3/ImageReader/ImageReader.jar"/>
+	<classpathentry kind="lib" path="/home/Administrator/smb-1/myself/stage3/ImageReader/lib/appframework-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/Administrator/smb-1/myself/stage3/ImageReader/lib/swing-worker-1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

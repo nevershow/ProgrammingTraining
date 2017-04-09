@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Calculator" default="run">
+    <property name="build" location="build"/>
+    <property name="src" location="src" />
+    <target name="init">
+    	<echo message="create a folder 'build'"/>
+    	<mkdir dir="${build}"/>
+    </target>
+	<target name="compile">
+    	<echo message="compiling..."/>
+    	<javac srcdir="${src}" destdir="${build}" includeantruntime="false"></javac>
+	</target>
+	<target name="run" depends="init, compile">
+    	<echo message="running..."/>
+		<java classname="Calculator" fork="true">
+			<classpath path="${build}" />
+		</java>
+	</target>
+</project>
+

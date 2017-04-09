@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<project name="HelloWorld" default="junit">
+     
+    <property name="build" location="build"/>
+    <property name="src" location="src" />	
+    <target name="init">
+    	<echo message="create a folder 'build'"/>
+		<mkdir dir="${build}"/>
+    </target>
+     
+    <target name="compile">
+    	<echo message="compiling..."/>
+        <javac srcdir="${src}" destdir="${build}" includeantruntime="true">
+        </javac> 
+    </target>    
+
+	<target name="junit" depends="init,compile">
+		<junit printsummary="true">
+				<classpath path="${build}" >
+				</classpath>
+				<test name="HelloWorldTest"/>
+		</junit>
+	</target>
+</project>

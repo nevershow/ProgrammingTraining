@@ -1,0 +1,5 @@
+projectKey=SparseGridRunner
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/SparseGridRunner
+ceTaskId=AVWqyiE0VXaLVNP80hQc
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVWqyiE0VXaLVNP80hQc
